@@ -1,10 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-
-public class SliderEng1_08 : MonoBehaviour
-{
-
-    [SerializeField]
     private Text mass;
     [SerializeField]
     private Slider sli
