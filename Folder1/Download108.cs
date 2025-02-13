@@ -1,27 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
-using UnityEngine;
-
-public class Download108 : MonoBehaviour
-{
-    private Dictionary<int, string[][]> exp = new Dictionary<int, string[][]>();
-
-    public Download108()
-    {
-        for (int i = 1; i < 6; i++)
-        {
-            exp[i] = new string[5][];
-        }
-    }
-
-    public void add(int key, double len, double result)
-    {
-        string[][] info;
-        if (exp.ContainsKey(key))
-        {
-            info = exp[key];
-        }
         else
         {
             info = new string[5][];
